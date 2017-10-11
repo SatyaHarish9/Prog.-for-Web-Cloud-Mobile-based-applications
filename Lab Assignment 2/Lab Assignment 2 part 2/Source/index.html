@@ -1,0 +1,40 @@
+<!doctype html>
+<html ng-app="nggame">
+	<head>
+		<title>Tictactoe</title>
+		<style type="text/css">
+			table {
+				margin: 10px;
+				border: blue 1px solid;
+			}
+			tr {
+				margin: 5px;
+			}
+			td {
+				border: blue 1px solid;
+				width: 70px;
+				height: 70px;
+				text-align: center;
+				font-size: 14px;
+			}
+			.winning {
+				background-color: green;
+				color: white;
+			}
+		</style>
+	</head>
+	<body ng-controller="CtrlBoard" background="bgimage.jpg" style="background-repeat: no-repeat; background-size: 90%" >
+	<h1 style="padding-left: 40%">Tic-Tac-Toe Game</h1>
+		<h1 ng-show="board.won" ng-cloak>{{board.winning_marker}} won the game!</h1>
+		<table style="margin: 0px auto;">
+			<tr ng-repeat="row in board.grid">
+				<td ng-repeat="cell in row" ng-click="board.playCell(cell)" ng-class="{'winning': cell.winning}">
+					<span ng-bind="cell.marker"></span>
+				</td>	
+			</tr>
+		</table>
+		<div style="padding-left: 48%"><br><br><button style="background-color: black; color: white" ng-click="board.reset()">Reset</button></div>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+	</body>
+</html>
