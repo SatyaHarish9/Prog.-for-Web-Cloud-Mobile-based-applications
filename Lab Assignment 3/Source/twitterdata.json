@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Harish Satya",
+    "parent": "US",
+    "children": [
+      {
+        "name": "Venkatesh Pallay",
+        "parent": "US"
+
+      },
+      {
+        "name": "Abhilash reddy gaddam",
+        "parent": "US"
+
+      },
+      {
+        "name": "Chalama Reddy",
+        "parent": "US"
+
+      },
+      {
+        "name": "Avinash Poluru",
+        "parent": "US"
+
+      },
+      {
+        "name": "Sowmith Kumar",
+        "parent": "US"
+
+      },
+      {
+        "name": "Saidu babu",
+        "parent": "US"
+
+      },
+
+      {
+        "name": "Nithin nooka",
+        "parent": "US"
+
+      },
+      {
+        "name": "Sainath Reddy",
+        "parent": "US"
+
+      },
+      {
+        "name": "Jaydeep reddy",
+        "parent": "US"
+
+      },
+      {
+        "name": "Alaap vasireddy",
+        "parent": "US"
+
+      },
+      {
+        "name": "Cherukuri venkatesh",
+        "parent": "US"
+
+      },
+
+      {
+        "name": "vinay",
+        "parent": "US"
+
+      },
+      {
+        "name": "sai kumar",
+        "parent": "US"
+
+      },
+      {
+        "name": "srinadh",
+        "parent": "US"
+
+      },
+      {
+        "name": "prashanth",
+        "parent": "US"
+
+      }
+
+    ]
+  }
+]
